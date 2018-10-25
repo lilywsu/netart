@@ -19,7 +19,87 @@ text-decoration: none;
 
 /* centers images */
 
-img{
-  display: block;
-  margin: 0px auto;
+
+
+/* page three */
+.container{
+  top: 0;
+  /*background-color: black;*/
+  /*background: url(img/try.jpg)no-repeat fixed;*/
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+left: 0;
+}
+
+.snow{
+  text-align: center;
+}
+
+.snow span{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  /*background: url(http://pngimagesfree.com/Snow/Snow-fall-png.png);*/
+  margin: -280px 40px 54px -34px;
+  -webkit-animation: snow 10s infinite linear;
+    -moz-animation: snow 10s infinite linear;
+}
+
+.snow span: nth-child(5n+5){
+  -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+
+}
+
+.snow span: nth-child(3n+2){
+  -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+
+}
+
+.snow span: nth-child(2n+5){
+  -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+
+}
+
+.snow span: nth-child(3n+10){
+  -webkit-animation-delay: 2.7s;
+    -moz-animation-delay: 2.7s;
+
+}
+
+.snow span: nth-child(7n+2){
+  -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+
+}
+
+.snow span: nth-child(4n+5){
+  -webkit-animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+
+}
+
+.snow span: nth-child(4n+7){
+  -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+
+}
+
+@-webkit-keyframes snow{
+  0%{
+    opacity: 1;
+    -webkit-transform: translate(0,0px); rotateZ(0deg);
+  }
+  75%{
+    opacity: 1;
+    -webkit-transform: translate(100,600px); rotateZ(270deg);
+  }
+  100%{
+    opacity: 1;
+    -webkit-transform: translate(150,800px); rotateZ(360deg);
+  }
 }
