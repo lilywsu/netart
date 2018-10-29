@@ -7,39 +7,38 @@ body {
   padding: 30px 20px;
   text-align: center;
   background-color: black;
-}
-
-h1 {
-  padding: 20px 0px 10px 0px;
-}
+  }
 
 
-
-a {
-color: #FFA06A;
-text-decoration: none;
-}
 
 /*button moving photo*/
 
+/*.wrapper{
+  text-align: center;
+  padding-bottom: 2em;
+}
+.button{
+  text-align: center;
+}
 
-button{
-  backfround: none;
-  color: #ccc;
-  width: 240px;
-  height: 80px;
-  border: 1px solid #338033;
+.button:focus{
+outline: none;
+}*/
+.button{
+  background: none;
+  color: pink;
+  line-height: 50px;
+  width: 170px;
+  border-radius: 1px solid #31bdde;
   font-size: 18px;
   border-radius: 4px;
   transition: .6s;
   overflow: hidden;
+  text-align: center;
 }
 
-button:focus{
-outline:none;
-}
 
-button:before{
+/*.button:before{
   content:'';
   display: block;
   background: rgba(255,255,255,.5);
@@ -49,39 +48,110 @@ button:before{
   top: 0;
   opacity: .5s;
   filter: blur(30px);
-  transform: translateX(-130px) skewX(-15deg);
+  transform: translateX(-130px) scaleX(-15deg);
+  text-align: center;
 }
 
 button:after{
   content:'';
   display: block;
-  background: rgba(255,255,255,.2);
+  background: rgba(155,155,155,.2);
   width: 30px;
   height: 100%;
   left: 30px;
   top: 0;
   opacity: 0;
   filter: blur(30px);
-  transform: translateX(-100px) skewX(-15deg);
+  transform: translateX(-100px) scaleX(-15deg);
+  text-align: center;
+}*/
+
+.button:hover{
+  background: #9200AB;
+  cursor: pointer;
+  position: center;
 }
 
-button:hover{
-  background:
+/*.button:hover:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: .6;
+  transition: .7s;
+  position: center;
+}*/
+
+
+/* pagetwo */
+.pagetwo{
+  background: none;
+  color: yellow;
+  line-height: 50px;
+  width: 170px;
+  border-radius: 1px solid #FF0000;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+.pagetwo:hover{
+  background: #E8BA5A;
+  cursor: pointer;
+  position: center;
 }
 
+/*pagethree*/
+.pagethree{
+  background: none;
+  color: white;
+  line-height: 50px;
+  width: 170px;
+  border-radius: 1px solid #FF0000;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+.pagethree:hover{
+  background: #0091F0;
+  cursor: pointer;
+  position: center;
+}
 
-/* centers images */
+/*pagefour*/
+.pagefour{
+  background: none;
+  color: #FF4F31;
+  line-height: 50px;
+  width: 170px;
+  border-radius: 1px solid #FF0000;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+.pagefour:hover{
+  background: #B5E4FF;
+  cursor: pointer;
+  position: center;
+}
 
-
-
-/* page three */
-.container{
-  top: 0;
-  /*background-color: black;*/
-  /*background: url(img/try.jpg)no-repeat fixed;*/
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-left: 0;
+/*pagefive*/
+.pagefive{
+  background: none;
+  color: #0FE4F0;
+  line-height: 50px;
+  width: 170px;
+  border-radius: 1px solid #FF0000;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+.pagefive:hover{
+  background: #86E88E;
+  cursor: pointer;
+  position: center;
 }
