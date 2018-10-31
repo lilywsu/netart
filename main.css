@@ -14,7 +14,10 @@ body {
   line-height: 50px;
   background-color: black;
   }
-
+h4{
+  font-size: 30px;
+  color: white;
+}
 
 
 /*star*/
@@ -119,7 +122,7 @@ button:after{
   text-align: center;
 }
 .pagethree:hover{
-  background: #0091F0;
+  background: #B5E4FF;
   cursor: pointer;
   position: center;
 }
@@ -138,7 +141,7 @@ button:after{
   text-align: center;
 }
 .pagefour:hover{
-  background: #B5E4FF;
+  background: #FF8C6A;
   cursor: pointer;
   position: center;
 }
