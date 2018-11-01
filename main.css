@@ -38,7 +38,7 @@ outline: none;
   color: pink;
   line-height: 50px;
   width: 170px;
-  /*border-radius: 2px solid #31bdde;*/
+  border: 2px solid #31bdde;
   font-size: 18px;
   border-radius: 4px;
   transition: .6s;
@@ -108,6 +108,19 @@ button:after{
   position: center;
 }
 
+.pagetwo{
+  background: none;
+  color: yellow;
+  line-height: 50px;
+  width: 170px;
+  border: 2px solid #42FF4E;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+
 /*snow*/
 .pagethree{
   background: none;
@@ -125,6 +138,19 @@ button:after{
   background: #B5E4FF;
   cursor: pointer;
   position: center;
+}
+
+.pagethree{
+  background: none;
+  color: white;
+  line-height: 50px;
+  width: 170px;
+  border: 2px solid #FFB184;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
 }
 
 /*travel outerspace*/
@@ -146,6 +172,20 @@ button:after{
   position: center;
 }
 
+.pagefour{
+  background: none;
+  /*color: white;*/
+  line-height: 50px;
+  width: 170px;
+  border: 2px solid #FFC6F1;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+
+
 /*jellyfish*/
 .pagefive{
   background: none;
@@ -165,6 +205,19 @@ button:after{
   position: center;
 }
 
+.pagefive{
+  background: none;
+  /*color: white;*/
+  line-height: 50px;
+  width: 170px;
+  border: 2px solid #CEFFFF;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
+}
+
 /*colorflash*/
 .pageseven{
   background: none;
@@ -182,4 +235,16 @@ button:after{
   background: #0D1AE8;
   cursor: pointer;
   position: center;
+}
+
+.pageseven{
+  background: none;
+  line-height: 50px;
+  width: 170px;
+  border: 2px solid #C8FFC0;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: .6s;
+  overflow: hidden;
+  text-align: center;
 }
